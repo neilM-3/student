@@ -6,7 +6,12 @@ hide: true
 
 ### Me and Team
 
-Hi! My name is [Your Full Name].
+Hi! My name is [Neil Manjrekar].
+---------------------------------
+|**Element**|**Markdown Syntax**|
+|-----------|-------------------|
+|**Red**    |**Favorite Color** | 
+|-----------|-------------------|
 
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
@@ -32,7 +37,7 @@ Hi! My name is [Your Full Name].
     KASM
 </a>
 <a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
-    <span style="color: #FFFFFF">VSCODE</span>
+    <span style="color: #e918188f">VSCODE</span>
 </a>
 
 <br>
@@ -43,7 +48,7 @@ Hi! My name is [Your Full Name].
     Snake Game
 </a>
 <a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
-    <span style="color: #000000">Turtle</span>
+    <span style="color: #561111ff">Turtle</span>
 </a>
 
 <br>
