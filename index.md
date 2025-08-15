@@ -1,24 +1,22 @@
 ---
 layout: base
-title: I'm [Your Full Name]
+title: I'm [Neil Manjrekar]
 hide: true
 ---
 
 ### Me and Team
 
 Hi! My name is [Neil Manjrekar].
----------------------------------
-|**Element**|**Markdown Syntax**|
-|-----------|-------------------|
-|**Red**    |**Favorite Color** | 
-|-----------|-------------------|
+# If you are intrested in learning how to play Basketball
+## Look at my prices below and we can figure out a deal
+### I have been playing basketball fo past 4 years and have proffessional expierience
 
-| Role         | Name     | Repo Location                       | Stream                | Repo Name |
+| Trainers       | Price     | Repo Location                       | Stream                | Role |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
-| Scrum Master | John     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
-| Scrummer     | Torin    | github.com/torin/student            | downstream (fork)     | student   |
-| Scrummer     | Avantika | github.com/avantika/student         | downstream (fork)     | student   |
-| Scrummer     | Aadit    | github.com/aaadit/student           | downstream (fork)     | student   |
+| Neil | 15.99     | github.com/jm1021/student           | upstream (OCS fork)   | Teacher   |
+| John     | Torin    | github.com/torin/student            | downstream (fork)     | student   |
+| Scrummer     | Avantika | github.com/avantika/student         | downstream     | Student   |
+| Student     | Aadit    | github.com/aaadit/student           | downstream (fork)     | student   |
 
 
 ## Links to Learning
@@ -36,8 +34,8 @@ Hi! My name is [Neil Manjrekar].
 <a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3ff">
     KASM
 </a>
-<a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
-    <span style="color: #e918188f">VSCODE</span>
+<a href="https://vscode.dev/" class="button small" style="background-color: #1eec0bff">
+    <span style="color: #f506b58f">VSCODE</span>
 </a>
 
 <br>
@@ -47,7 +45,7 @@ Hi! My name is [Neil Manjrekar].
 <a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
     Snake Game
 </a>
-<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
+<a href="{{site.baseurl}}/turtle" class="button large" style="background-color: #2A7DB1">
     <span style="color: #561111ff">Turtle</span>
 </a>
 
