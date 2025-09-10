@@ -1,15 +1,24 @@
 ---
+<<<<<<< HEAD
 layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
 sprite: images/platformer/sprites/sprite.png
 background: images/platformer/backgrounds/continuous-background.jpg
+=======
+layout: opencs
+title: Background with Object
+description: Use JavaScript to have an in motion background.
+sprite: /images/platformer/sprites/flying-ufo.png
+background: /images/platformer/backgrounds/alien_planet1.jpg
+>>>>>>> 8d699cb (backhgorund)
 permalink: /background
 ---
 
 <canvas id="world"></canvas>
 
 <script>
+<<<<<<< HEAD
 
   //Defines the canvas. like a painter where we will place object
   const canvas = document.getElementById("world");
@@ -22,6 +31,15 @@ permalink: /background
   spriteImg.src = '{{page.sprite}}';  // Player Image
 
 //Image Loading Code Block
+=======
+  const canvas = document.getElementById("world");
+  const ctx = canvas.getContext('2d');
+  const backgroundImg = new Image();
+  const spriteImg = new Image();
+  backgroundImg.src = '{{page.background}}';
+  spriteImg.src = '{{page.sprite}}';
+
+>>>>>>> 8d699cb (backhgorund)
   let imagesLoaded = 0;
   backgroundImg.onload = function() {
     imagesLoaded++;
