@@ -1,0 +1,151 @@
+/* ===================================
+   DARK/LIGHT THEME TOGGLE
+   =================================== */
+
+/* Light Theme (Default) */
+:root {
+    --bg-gradient-1: #667eea;
+    --bg-gradient-2: #764ba2;
+    --content-bg: rgba(255, 255, 255, 0.95);
+    --text-color: #333;
+    --heading-color: #667eea;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    --bg-gradient-1: #232526;
+    --bg-gradient-2: #414345;
+    --content-bg: rgba(40, 44, 52, 0.95);
+    --text-color: #e6e6e6;
+    --heading-color: #4facfe;
+    --shadow: rgba(0, 0, 0, 0.6);
+}
+
+/* Body Background */
+body {
+    background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 100%) !important;
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+/* Content Cards */
+.post-content, 
+article,
+.content {
+    background: var(--content-bg) !important;
+    color: var(--text-color) !important;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px var(--shadow);
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color) !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+
+/* Links */
+a {
+    color: var(--heading-color) !important;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/* Code Blocks */
+code {
+    background: rgba(0, 0, 0, 0.1) !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--text-color);
+}
+
+[data-theme="dark"] code {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: #4facfe;
+}
+
+/* Pre/Code Blocks */
+pre {
+    background: rgba(0, 0, 0, 0.05) !important;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+[data-theme="dark"] pre {
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    background: var(--heading-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px var(--shadow);
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px var(--shadow);
+}
+
+.theme-toggle:active {
+    transform: translateY(-1px);
+}
+
+/* Lists */
+ul, ol {
+    color: var(--text-color);
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Paragraphs */
+p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid var(--heading-color);
+    padding-left: 20px;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+/* Tables */
+table {
+    background: var(--content-bg);
+    color: var(--text-color);
+}
+
+th {
+    background: var(--heading-color);
+    color: white;
+}
+
+/* Horizontal Rules */
+hr {
+    border-color: var(--heading-color);
+    opacity: 0.3;
+}
