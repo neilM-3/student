@@ -20,3 +20,14 @@ header_pages:
   - navigation/search.md
   - navigation/about.md
   - navigation/logintoolkit.md
+  # Custom CSS
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "assets/css"
+    values:
+      sitemap: false
