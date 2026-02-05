@@ -1,3 +1,4 @@
+permalink: /terminal-dungeon-escape/
 /*
 Terminal Dungeon Escape (single-file C game)
 
